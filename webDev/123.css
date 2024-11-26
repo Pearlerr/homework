@@ -1,0 +1,260 @@
+.module1 {
+    background-image: url('https://typora-xxxx.oss-cn-beijing.aliyuncs.com/ZzgbPHidO379.jpg');
+    width: 100%;
+    height: 814px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0; 
+}
+
+.module2 {
+    background-image: url('https://typora-xxxx.oss-cn-beijing.aliyuncs.com/%E6%92%AD%E6%94%BE.jpg');
+    width: 100%;
+    height: 525px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px; 
+}
+
+.module3 {
+    background-image: url('https://typora-xxxx.oss-cn-beijing.aliyuncs.com/p24964153.jpg');
+    width: 100%;
+    height: 379px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0; 
+}
+.module4 {
+    background-image: url('https://typora-xxxx.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%B1%82%2011.jpg');
+    width: 100%;
+    height: 470px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1px; 
+}
+.module5 {
+    background-image: url('https://typora-xxxx.oss-cn-beijing.aliyuncs.com/%E5%9B%BE%E5%B1%82%2017.jpg');
+    width: 100%;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px; 
+}
+.module6 {
+    background-image: url('https://typora-xxxx.oss-cn-beijing.aliyuncs.com/%E5%80%92%E6%95%B0%E4%BA%8C%E5%B1%82.png');
+    width: 100%;
+    height: 1011px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0; 
+}
+
+#box1 {
+    font-size:20px;
+    margin: 0 auto;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    color:#ffffff;
+    text-align:center;
+}
+span {
+    font-family:"Segoe Script";}
+#box2 {
+    width: 1500px;
+    height: 500px;
+    font-size: 70px;
+    color:aliceblue;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+}
+#box3 {
+    font-size:20px;
+    color:black;
+    position:absolute;
+    text-align:left;
+    line-height: 1.5cm;
+}
+#box3>h2 {
+    text-align: center;
+}
+.x {
+    position: absolute;
+    width:754px;
+    height:530px;
+    left: 550px;
+    top: 800px;
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+#box4 {
+    font-size:24px;
+    color:black;
+    text-align:center;
+    position:relative;
+}
+.content {
+    background-color: #ffffff;
+    width: 836px;
+    height: 296px;
+    position: absolute;
+    top:2500px;
+    left:350px;
+    text-align: center;
+}
+.LAMY {
+    font-size:30px;
+    text-align:center;
+    position: relative;
+    top:0;
+}
+.big-box {
+    display: flex;
+    justify-content: space-between;
+}
+.big-box.box {
+    width:33%;
+    height:100%;
+}
+.box {
+    font-size:25px;
+    position:relative;
+    text-align:left;
+    top:25%;
+}
+
+.box8 {
+    font-size:20px;
+    font-family:Ink Free;
+    position:relative;
+    padding-bottom: 0%;
+    padding-left: 50%;
+}
+.bigbig {
+    display: flex;
+    justify-content: center;
+}
+.big-gruop {
+    width:500px;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+}
+.a {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right:45%;
+}
+.b {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right:45%;
+}
+.c {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right:45%;
+}
+
+.logo {
+        width: 233px;
+        height: 97px;
+        display: inline-block;
+}
+.lo {
+    text-align: center;
+}
+.sugou {
+    background-color: black;
+    font-size: 25px;
+    width: 241px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    margin: auto;
+}
+.xinpin {
+    background-color: red;
+    font-size: 25px;
+    width: 241px;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    margin: auto;
+}
+.chuowo {
+    background-color:brown;
+    font-size: 25px;
+    width: 241px;
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+    margin: auto;
+}
+.go {
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+
+}
+.sp {
+    font-size: 113px;
+    font-family: "Britannic Bold";
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+.say {
+    font-size: 20px;
+    color:#ffffff;
+    line-height: 1.526;
+    text-align: center;
+    position: relative;
+    top:35px;
+}
+.say1 {
+    font-size: 20px;
+    font-family:"Segoe Print" ;
+}
+.choose {
+    font-size: 20px;
+    font-family: "Segoe Script";
+    line-height: 1.111;
+}
+.choice {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top:0;
+}
+.end1 {
+    color: black;
+    position: absolute;
+    top:4400px;
+    left:500px;
+}
+.end2 {
+    position: absolute;
+    top:4200px;
+    left:580px;
+}
+.end3 {
+    color: black;
+    position: absolute;
+    top:4400px;
+    left:950px;
+}
