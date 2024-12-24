@@ -1,0 +1,368 @@
+body{
+    margin: 0;
+}
+header{
+    background-color:white;
+    width: 100%;
+    height: 40px;
+}
+.page1{
+    background-image:url("https://typora-xxxx.oss-cn-beijing.aliyuncs.com/%E4%B9%8C%E9%BE%9F.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 100%;
+    height: 600px;
+}
+.pho1{
+    text-align: center;
+    position: relative;
+    top:-40px;
+    transition: all 0.2s ease;
+}
+.pho1:hover{
+    transform: scale(0.9);
+}
+.page1>p{
+    text-align: center;
+    font-size: 72px;
+    font-family: "Cambria";
+    color: rgb(42, 63, 23);
+    line-height: 0;
+}
+.content1{
+    width:60%;
+    margin: auto;
+
+}
+.content1>p{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Cambria";
+    color: rgb(42, 63, 23);
+    line-height: 1;
+}
+.box1{
+    font-size: 20px;
+    color: white;
+    background-color:rgb(42, 63, 23);
+    border: 2px;
+    width:170px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    position: relative;
+    left:300px;
+}
+.box2{
+    position: relative;
+    top:-20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.box2>t{
+    transition:all 0.2s ease;
+}
+.box2>t:hover{
+    transform:translateY(-20px);
+}
+.b1{
+    position: relative;
+    transition:all 0.2s ease;
+}
+.b1:hover{
+    transform:translateY(-20px);
+}
+.p1{
+    position: absolute;
+    font-size: 48px;
+    font-family: "Cambria";
+    color: white;
+    left: 20%;
+    top: 60%;
+}
+.b2{
+    position: relative;
+    transition:all 0.2s ease;
+}
+.b2:hover{
+    transform:translateY(-20px);
+}
+.p2{
+    position: absolute;
+    font-size: 48px;
+    font-family: "Cambria";
+    color: white;
+    left: 50%;
+    top: 60%;
+}
+.b3{
+    position: relative;
+    transition:all 0.2s ease;
+}
+.b3:hover{
+    transform:translateY(-20px);
+}
+.p3{
+    position: absolute;
+    font-size: 48px;
+    font-family: "Cambria";
+    color: white;
+    left: 82%;
+    top: 60%;
+}
+.page2{
+    background-image:url("https://typora-xxxx.oss-cn-beijing.aliyuncs.com/%E9%B9%BF.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 100%;
+    height: 600px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.content3{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+}
+.page3{
+    text-align: center;
+    color:rgb(42, 63, 23);
+    font-size: 20px;
+}
+.content2{
+    background-color: rgb(224, 223, 223);
+    width: 800px;
+    height: 400px;
+    position: relative;
+    top:-100px;
+    transition:all 0.2s ease;
+}
+.content2>p{
+    font-size: large;
+    line-height:normal;
+    padding-top: 35px;
+    padding-left:40px;
+    padding-right: 30px;
+}
+.sign>p{
+    font-size: 25px;
+    font-family: "Microsoft YaHei";
+    color: rgb(255, 255, 255);
+    line-height: 55px;
+}
+.sign{
+    background-color:rgb(42, 63, 23);
+    width: 155px;
+    height: 55px;
+    text-align: center;
+    position: relative;
+    margin-left:310px;
+    margin-bottom: 60px;
+    transition:all 0.5s ease;
+}
+.sign:hover{
+    transform: scale(0.9);
+}
+.content2:hover{
+    transform:translateY(-30px);
+}
+.tittle1{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+}
+.tittle1>h1{
+    transition: all 0.5s ease;
+}
+.tittle1>h1:hover{
+    border:2px solid black;
+    width:fit-content;
+    text-align: center;
+}
+.box3{
+    display: flex;
+    justify-content:space-around;
+}
+.page4>p{
+    text-align: center;
+    font-size: 32px;
+    font-family: "Microsoft YaHei";
+    border: 2px solid rgb(42, 63, 23);
+    width: 300px;
+    height:60px;
+    line-height: 60px;
+    color:rgb(42, 63, 23);
+    position: relative;
+    left: 40%;
+    transition:all 0.3s ease;
+}
+.page4>p:hover{
+    color: white;
+    background-color: rgb(42, 63, 23);
+}
+.content4{
+    color:rgb(42, 63, 23);
+    font-size: 20px;
+}
+.part1{
+    width: 420px;
+    margin-bottom: 50px;
+    transition:all 0.3s ease;
+}
+.part1>h2{
+    transition:all 0.3s ease;
+}
+.part1>h2:hover{
+    transform:translateY(-15px);
+}
+.part1>p{
+    transition:all 0.3s ease;
+}
+.part1>p:hover{
+    transform:translateX(20px);
+    transform: scale(1.1);
+}
+.part2 li{
+    line-height: 200px;
+    transition:all 0.3s ease;
+}
+.part2 li:hover{
+    transform:translateX(15px);
+}
+.page5{
+    display: flex;
+    justify-content: space-around;
+}
+.content6{
+    font-size: 35px;
+    font-family: "Microsoft YaHei";
+    color: rgb(42, 63, 23);
+    line-height: 2;
+    margin: 100px;
+}
+.content7{
+    font-size: 20px;
+    font-family: "Microsoft YaHei";
+    color: rgb(42, 63, 23);
+    line-height: 2;
+    margin: 100px;
+}
+.content7>span{
+    font-size: 31px;
+    font-family: "Microsoft YaHei";
+}
+.content8{
+    font-size: 30px;
+    font-family: "Microsoft YaHei";
+    color: white;
+    line-height: 2;
+    margin: 100px;
+    background-color: rgb(42, 63, 23);
+    opacity: 0.502;
+    width: 360px;
+    height: 73px;
+    text-align: center;
+    line-height: 73px;
+    transition:all 0.5s ease;
+
+}
+.content8:hover{
+    background-color:white;
+    color: rgb(42, 63, 23); 
+    transform:translateY(-20px);
+}
+.page4>p{
+    transition:all 0.3s ease;
+}
+.a1{
+    padding: 20px;
+}
+.a2{
+    padding: 20px;
+}
+.a3{
+    padding: 20px;
+}
+.a4{
+    padding: 20px;
+}
+.a1>p{
+    background-color:  rgb(224, 223, 223);
+    width: 262px;
+    height: 150px;
+    margin-top:-5px;
+    font-size: 25px;
+    line-height: 2;
+}
+.a2>p{
+    background-color:  rgb(224, 223, 223);
+    width: 262px;
+    height: 150px;
+    margin-top:-5px;
+    font-size: 25px;
+    line-height: 2;
+}
+.a3>p{
+    background-color:  rgb(224, 223, 223);
+    width: 262px;
+    height: 150px;
+    margin-top:-5px;
+    font-size: 25px;
+    line-height: 2;
+}
+.a4>p{
+    background-color:  rgb(224, 223, 223);
+    width: 262px;
+    height: 150px;
+    margin-top:-5px;
+    font-size: 25px;
+    line-height: 2;
+
+}
+.a2>p>span{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.a3>p>span{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.a4>p>span{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.a1>p>span{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.a1{
+    transition:all 0.3s ease;
+}
+.a1:hover{
+    transform:translateY(-20px);
+}
+.a2{
+    transition:all 0.3s ease;
+}
+.a2:hover{
+    transform:translateY(-20px);
+}
+.a3{
+    transition:all 0.3s ease;
+}
+.a3:hover{
+    transform:translateY(-20px);
+}
+.a4{
+    transition:all 0.3s ease;
+}
+.a4:hover{
+    transform:translateY(-20px);
+}
+
+
