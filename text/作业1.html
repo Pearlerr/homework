@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            padding-left: 43%;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    请输入一个字符串：<br><input type="text" id="LongStr"><br>
+    请输入一个子串：<br><input type="text" id="ShortStr">
+    <button id="submition" onclick="Search()">提交</button><br>
+    <div id="result">子串出现的次数为： </div>
+    <script>
+        function Length(str){
+            let count = 0;
+            for(let i = 0; ;i++){
+                if(typeof str[i] == 'undefined'){
+                    break;
+                }
+                count++;
+            }
+            return count;
+        }
+        function Search(){
+        let str1 = document.getElementById("LongStr").value;
+        let str2 = document.getElementById("ShortStr").value;
+        let result = document.getElementById("result");
+        let length1 = Length(str1);
+        let length2 = Length(str2);
+        let count = 0;
+        for(let i=0;i <=length1; i++){
+            if(str1.slice(i,i + length2) === str2){
+                count++;
+            }
+        }
+        result.innerHTML ='子串出现的次数为：'+ count;
+                        }
+    </script>
+</body>
+</html>
